@@ -4,12 +4,6 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo "Starting install..."
 
 ####################
-# Brew and Cask
-####################
-
-source "$DOTFILES_DIR/brew.sh"
-
-####################
 # Symlinks
 ####################
 

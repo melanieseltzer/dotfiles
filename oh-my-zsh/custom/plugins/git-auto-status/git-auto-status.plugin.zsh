@@ -10,9 +10,7 @@ gitPreAutoStatusCommands=(
     'rm'
     'reset'
     'commit'
-    'checkout'
-    'mv'
-    'init'
+    'fetch'
 )
 
 # taken from http://stackoverflow.com/a/8574392/4647743
