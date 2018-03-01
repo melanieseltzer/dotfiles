@@ -1,8 +1,7 @@
-# Setting $PATH
+# Setting $PATH and $ZSH and $ZSH_CUSTOM
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to the oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+export ZSH_CUSTOM=$HOME/dotfiles/oh-my-zsh/custom
 
 # ZSH theme to display.
 ZSH_THEME="cloud"
@@ -20,4 +19,4 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="yyyy-mm-dd"
 
 # Oh-my-zsh plugins
-plugins=( git last-working-dir lol npm osx web-search wd )
+plugins=( git git-auto-status last-working-dir lol npm osx web-search wd )

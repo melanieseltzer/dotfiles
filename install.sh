@@ -15,9 +15,9 @@ source "$DOTFILES_DIR/brew.sh"
 
 echo "Starting Symlinks..."
 
-ln -sf "$DOTFILES_DIR/git/.gitconfig" ~
-ln -sf "$DOTFILES_DIR/git/.gitignore_global" ~
-ln -sf "$DOTFILES_DIR/zsh/.zshrc" ~
+ln -sf "$DOTFILES_DIR/.gitconfig" ~
+ln -sf "$DOTFILES_DIR/.gitignore_global" ~
+ln -sf "$DOTFILES_DIR/.zshrc" ~
 if [[ ! -d ~/.atom ]]; then mkdir ~/.atom/; fi
 ln -sf "$DOTFILES_DIR/atom/config.cson" ~/.atom/
 ln -sf "$DOTFILES_DIR/atom/keymap.cson" ~/.atom/
@@ -28,8 +28,6 @@ ln -sf "$DOTFILES_DIR/atom/styles.less" ~/.atom/
 ####################
 
 echo "Starting Atom..."
-
-
 
 # Install packages based on packages.txt
 # Workaround to skip installation if first package exists
