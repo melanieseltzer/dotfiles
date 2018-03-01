@@ -6,3 +6,6 @@
 node_modules
 bower_components
 npm-debug.log
+config.codekit
+config.codekit3
+wp-content/uploads
