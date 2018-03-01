@@ -7,7 +7,7 @@ export ZSH_CUSTOM=$HOME/dotfiles/oh-my-zsh/custom
 ZSH_THEME="cloud"
 
 # Enable command auto-correction.
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 
 # Display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
