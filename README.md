@@ -1,10 +1,16 @@
 # Melanie Seltzer's dotfiles
 
-My MacOS environment dotfiles.
+## :rocket: Install
 
-## :sparkles: Features
+Clone the repo...
 
-To do...
+`git clone https://github.com/melanieseltzer/dotfiles.git && cd dotfiles`
+
+Make your appropriate changes, and then...
+
+`./install.sh`
+
+Have fun!
 
 ## :heart: Thanks
 

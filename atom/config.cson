@@ -1,0 +1,34 @@
+"*":
+  "atom-beautify":
+    css:
+      convert_quotes: "single"
+    jade: {}
+    js: {}
+    scss:
+      convert_quotes: "single"
+  "autocomplete-modules": {}
+  "browser-refresh": {}
+  "browser-refresh-on-save":
+    scripts: {}
+  core:
+    disabledPackages: [
+      "github"
+    ]
+    packagesWithKeymapsDisabled: [
+      "browser-refresh"
+    ]
+    projectHome: "/Users/melleh/Sites"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "dracula-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    fontSize: 16
+    softWrap: true
+  "one-dark-ui":
+    fontSize: 16
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

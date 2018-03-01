@@ -5,28 +5,7 @@
 
 # Git command aliases
 [alias]
-	aa = add -A .
-	aacm = !git add -A . && git commit -m
-	br = branch
-	brd = branch -d
-	brD = branch -D
-	cm = commit -m
-	co = checkout
-	cob = checkout -b
-	coo = !git fetch && git checkout
-	fompom = !git fetch origin master && git pull origin master
-	master = !git checkout master && git pull origin
-	merged = branch --merged
-	po = push origin
-	phm = push heroku master
-	pom = push origin master
-	poh = push origin HEAD
-	plo = pull origin
-	plom = pull origin master
-	ploh = pull origin HEAD
-	rv = remote -v
-	st = status
-	unstage = reset --soft HEAD^
+	gfgp = !git fetch origin master && git pull origin master
 
 # Use colors in Git commands
 [color "branch"]
