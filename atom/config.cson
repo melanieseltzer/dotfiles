@@ -7,15 +7,22 @@
     scss:
       convert_quotes: "single"
   "autocomplete-modules": {}
+  autosave:
+    enabled: true
   "browser-refresh": {}
   "browser-refresh-on-save":
     scripts: {}
   core:
-    disabledPackages: [
-      "github"
+    ignoredNames: [
+      "*.git"
+      "*.svn"
+      "*.DS_Store"
+      "._*"
+      "*~"
     ]
     packagesWithKeymapsDisabled: [
       "browser-refresh"
+      "open-on-github"
     ]
     projectHome: "/Users/melleh/Sites"
     telemetryConsent: "no"
@@ -27,8 +34,15 @@
     autoIndentOnPaste: false
     fontSize: 16
     softWrap: true
+    tabLength: 2
+  "exception-reporting":
+    userId: "f059cf1c-85da-5ed8-f80a-4afa62f4c519"
+  "git-diff":
+    showIconsInEditorGutter: true
   "one-dark-ui":
     fontSize: 16
-  "tree-view": {}
+  "tree-view":
+    autoReveal: true
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
