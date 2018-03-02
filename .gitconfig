@@ -5,7 +5,7 @@
 
 # Git command aliases
 [alias]
-	gfgp = !git fetch origin master && git pull origin master
+	fetchpull = !git fetch origin master && git pull origin master
 
 # Use colors in Git commands
 [color "branch"]
