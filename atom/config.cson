@@ -42,7 +42,7 @@
   "one-dark-ui":
     fontSize: 16
   "tree-view":
-    autoReveal: true
+    autoReveal: false
     hideIgnoredNames: true
   welcome:
     showOnStartup: false
