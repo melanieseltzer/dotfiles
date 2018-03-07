@@ -5,12 +5,12 @@
 
 # Git command aliases
 [alias]
-	gfgp = !git fetch origin master && git pull origin master
+	fetchpull = !git fetch origin master && git pull origin master
 
 # Use colors in Git commands
 [color "branch"]
 	current = yellow reverse
-	local = yello
+	local = yellow
 	remote = green
 
 [color "diff"]
@@ -44,7 +44,7 @@
 	excludesfile = ~/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
