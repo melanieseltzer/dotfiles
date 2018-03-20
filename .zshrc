@@ -23,3 +23,13 @@ plugins=( git git-auto-status last-working-dir lol npm osx web-search wd )
 
 # Source
 source $ZSH/oh-my-zsh.sh
+
+# -------------------------------------------------------------------
+# Aliases
+# -------------------------------------------------------------------
+
+# Brew
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+
+# Git
+alias fetchpull='git fetch origin master && git pull origin master'

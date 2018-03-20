@@ -3,10 +3,6 @@
 	name = Melanie Seltzer
 	email = melleh11@gmail.com
 
-# Git command aliases
-[alias]
-	fetchpull = !git fetch origin master && git pull origin master
-
 # Use colors in Git commands
 [color "branch"]
 	current = yellow reverse

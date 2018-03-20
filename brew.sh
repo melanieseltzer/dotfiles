@@ -61,6 +61,7 @@ CASKS=(
   mamp
   plex-media-server
   poedit
+  sequel-pro
   skype
   slack
   sourcetree
