@@ -10,6 +10,8 @@ Make your appropriate changes, and then...
 
 `./install.sh`
 
+`./brew.sh`
+
 Have fun!
 
 ## :heart: Thanks
