@@ -33,3 +33,6 @@ alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
 # Git
 alias fetchpull='git fetch origin master && git pull origin master'
+
+# added by travis gem
+[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
