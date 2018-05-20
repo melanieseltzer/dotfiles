@@ -3,9 +3,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_CUSTOM=$HOME/dotfiles/oh-my-zsh/custom
 
-# ZSH theme to display.
-ZSH_THEME="cloud"
-
 # Enable command auto-correction.
 ENABLE_CORRECTION="false"
 
@@ -19,10 +16,14 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="yyyy-mm-dd"
 
 # Oh-my-zsh plugins
-plugins=( git git-auto-status last-working-dir lol npm osx web-search wd )
+plugins=( git git-auto-status last-working-dir lol npm osx web-search wd zsh-syntax-highlighting)
 
 # Source
 source $ZSH/oh-my-zsh.sh
+
+# Use the Pure prompt https://github.com/sindresorhus/pure
+autoload -U promptinit; promptinit
+prompt pure
 
 # -------------------------------------------------------------------
 # Aliases

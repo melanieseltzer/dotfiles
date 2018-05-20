@@ -12,6 +12,7 @@ echo "Starting Symlinks..."
 ln -sf "$DOTFILES_DIR/.gitconfig" ~
 ln -sf "$DOTFILES_DIR/.gitignore_global" ~
 ln -sf "$DOTFILES_DIR/.zshrc" ~
+ln -sf "$DOTFILES_DIR/.hyper.js" ~
 if [[ ! -d ~/.atom ]]; then mkdir ~/.atom/; fi
 ln -sf "$DOTFILES_DIR/atom/config.cson" ~/.atom/
 ln -sf "$DOTFILES_DIR/atom/keymap.cson" ~/.atom/

@@ -30,8 +30,6 @@ PACKAGES=(
   terminal-notifier
   wget
   zsh
-  zsh-syntax-highlighting
-  zsh-history-substring-search
 )
 
 echo "Installing packages..."
@@ -45,28 +43,26 @@ brew tap caskroom/cask
 
 CASKS=(
   applepi-baker
-  atom
   balsamiq-mockups
   chrome-devtools
   disk-inventory-x
-  docker
   filezilla
   firefox
   flux
   folx
   google-chrome
-  iterm2
+  hyper
   ivpn
   karabiner-elements
   mamp
   plex-media-server
-  poedit
   sequel-pro
   skype
   slack
   sourcetree
   spectacle
   spotify
+  visual-studio-code
   vlc
 )
 
