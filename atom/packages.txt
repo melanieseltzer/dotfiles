@@ -1,9 +1,0 @@
-atom-beautify@0.30.9
-autocomplete@0.47.0
-autocomplete-modules@1.11.0
-dracula-syntax@2.0.6
-language-babel@2.84.0
-language-haml@0.25.2
-language-pug@0.0.22
-teletype@0.9.0
-
