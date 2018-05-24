@@ -56,6 +56,7 @@ CASKS=(
   karabiner-elements
   mamp
   plex-media-server
+  rocket
   sequel-pro
   skype
   slack
