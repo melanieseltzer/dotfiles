@@ -1,13 +1,10 @@
 {
   "editor.fontSize": 16,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
   "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "explorer.autoReveal": false,
-  "files.autoSave": "onFocusChange",
   "files.exclude": {
     "**/.git": false,
     "**/.svn": false,
@@ -22,5 +19,16 @@
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
-  "gitlens.historyExplorer.enabled": true
+  "gitlens.historyExplorer.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
 }
