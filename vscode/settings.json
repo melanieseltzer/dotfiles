@@ -31,4 +31,5 @@
   },
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
+  "javascript.validate.enable": false
 }
