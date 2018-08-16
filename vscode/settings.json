@@ -1,0 +1,35 @@
+{
+  "editor.fontSize": 16,
+  "editor.matchBrackets": false,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.autoReveal": false,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false
+  },
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "javascript.validate.enable": false
+}
