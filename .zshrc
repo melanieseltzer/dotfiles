@@ -3,6 +3,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_CUSTOM=$HOME/dotfiles/oh-my-zsh/custom
 
+# env vars
+source $HOME/dotfiles/.env
+
 # Enable command auto-correction.
 ENABLE_CORRECTION="false"
 
