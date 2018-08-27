@@ -1,20 +1,39 @@
 {
-  "editor.fontSize": 16,
-  "editor.matchBrackets": false,
-  "editor.minimap.enabled": false,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
   "explorer.autoReveal": false,
-  "files.exclude": {
-    "**/.git": false,
-    "**/.svn": false,
-    "**/.hg": false,
-    "**/CVS": false,
-    "**/.DS_Store": false
-  },
-  "window.zoomLevel": 1,
+  "editor.minimap.enabled": false,
+  "editor.matchBrackets": false,
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.forceDownload": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/bower_components": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true
+  },
+  "window.zoomLevel": 1,
+  "editor.wordWrap": "on",
   "workbench.startupEditor": "newUntitledFile",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
