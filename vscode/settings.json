@@ -1,7 +1,16 @@
 {
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
   "editor.tabSize": 2,
   "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
@@ -36,17 +45,18 @@
   "gitlens.views.lineHistory.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
+  "sync.askGistName": false,
   "sync.autoDownload": true,
   "sync.autoUpload": true,
   "sync.forceDownload": false,
   "sync.quietSync": false,
-  "sync.askGistName": false,
   "sync.removeExtensions": true,
   "sync.syncExtensions": true,
-  "window.zoomLevel": 1,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.enablePreviewFromQuickOpen": false,
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Dracula",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 1,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
