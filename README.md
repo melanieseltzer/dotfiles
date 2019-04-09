@@ -1,6 +1,6 @@
 # Melanie Seltzer's dotfiles
 
-## :rocket: Install
+## 🚀 Install
 
 Clone the repo...
 
@@ -14,7 +14,11 @@ Make your appropriate changes, and then...
 
 Have fun!
 
-## :heart: Thanks
+## Note
+
+You will need to download Pure prompt separately (global npm install is best): https://github.com/sindresorhus/pure
+
+## ❤️ Thanks
 
 - [GitHub ❤ ~/](https://dotfiles.github.io/)
 - [Joel Hans](https://blog.ssdnodes.com/blog/tutorial-lets-make-development-lives-better-dotfiles/)

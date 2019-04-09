@@ -16,20 +16,14 @@ fi
 brew update
 
 PACKAGES=(
-  autoconf
-  automake
   cheat
   gettext
   git
-  heroku
-  markdown
-  mongodb
-  postgresql
-  python3
   readline
-  terminal-notifier
   wget
+  yarn
   zsh
+  zsh-syntax-highlighting
 )
 
 echo "Installing packages..."
@@ -42,26 +36,21 @@ echo "Installing cask..."
 brew tap caskroom/cask
 
 CASKS=(
-  applepi-baker
-  balsamiq-mockups
-  chrome-devtools
-  disk-inventory-x
-  filezilla
   firefox
-  flux
   folx
+  gitter
   google-chrome
   hyper
   ivpn
+  kap
   karabiner-elements
-  mamp
   plex-media-server
+  postman
+  robo-3t
   rocket
-  sequel-pro
-  skype
   slack
-  sourcetree
   spectacle
+  spectrum
   spotify
   visual-studio-code
   vlc
