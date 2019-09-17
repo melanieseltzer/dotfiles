@@ -10,7 +10,6 @@
   },
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
@@ -59,12 +58,15 @@
   "sync.quietSync": false,
   "sync.removeExtensions": true,
   "sync.syncExtensions": true,
-  "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Dracula",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "window.zoomLevel": 1,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.sideBar.location": "left"
+  "workbench.sideBar.location": "left",
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "sync.forceUpload": true
 }
