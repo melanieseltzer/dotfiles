@@ -16,11 +16,7 @@ fi
 brew update
 
 PACKAGES=(
-  cheat
-  gettext
   git
-  readline
-  wget
   yarn
   zsh
   zsh-syntax-highlighting
@@ -38,7 +34,6 @@ brew tap caskroom/cask
 CASKS=(
   firefox
   folx
-  gitter
   google-chrome
   hyper
   ivpn
@@ -46,11 +41,9 @@ CASKS=(
   karabiner-elements
   plex-media-server
   postman
-  robo-3t
   rocket
   slack
   spectacle
-  spectrum
   spotify
   visual-studio-code
   vlc
