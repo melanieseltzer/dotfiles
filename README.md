@@ -1,25 +1,23 @@
 # Melanie Seltzer's dotfiles
 
-## 🚀 Install
+Clone the repo and navigate to the dotfiles folder:
 
-Clone the repo...
+```bash
+$ git clone git@github.com:melanieseltzer/dotfiles.git && cd dotfiles
+```
 
-`git clone https://github.com/melanieseltzer/dotfiles.git && cd dotfiles`
+Make your appropriate file changes, and then run the install script to symlink:
 
-Make your appropriate changes, and then...
+```bash
+$ ./install.sh
+```
 
-`./install.sh`
+Then run the brew script to install packages and casks:
 
-`./brew.sh`
-
-Have fun!
+```bash
+$ ./brew.sh
+```
 
 ## Note
 
 You will need to download Pure prompt separately (global npm install is best): https://github.com/sindresorhus/pure
-
-## ❤️ Thanks
-
-- [GitHub ❤ ~/](https://dotfiles.github.io/)
-- [Joel Hans](https://blog.ssdnodes.com/blog/tutorial-lets-make-development-lives-better-dotfiles/)
-- [Mathias's dotfiles](https://github.com/mathiasbynens/dotfiles)
