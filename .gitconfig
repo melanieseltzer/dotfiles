@@ -1,9 +1,10 @@
-# User information
 [user]
 	name = Melanie Seltzer
 	email = melleh11@gmail.com
 
-# Use colors in Git commands
+[github]
+  user = melanieseltzer
+
 [color "branch"]
 	current = yellow reverse
 	local = yellow
@@ -20,23 +21,19 @@
 	changed = green
 	untracked = red
 
-# URL shorthands
-[url "git@github.com:"]
-	insteadOf = "gh:"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-
-[url "git://github.com/"]
-	insteadOf = "github:"
-
-[url "git@gist.github.com:"]
-	insteadOf = "gst:"
-	pushInsteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
-
-[url "git://gist.github.com/"]
-	insteadOf = "gist:"
 [core]
 	excludesfile = ~/.gitignore_global
-[commit]
-	template = ~/.stCommitMsg
+
+[alias]
+  a = add .
+  ca = commit -a
+  cam = commit -am
+  cm = commit -m
+  s = status
+	gst = status
+	f = fetch
+	fom = fetch origin master
+  pom = push origin master
+  puom = pull origin master
+  cob = checkout -b
+  co = checkout

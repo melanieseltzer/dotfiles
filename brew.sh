@@ -18,7 +18,6 @@ brew update
 PACKAGES=(
   git
   yarn
-  zsh
   zsh-syntax-highlighting
 )
 
