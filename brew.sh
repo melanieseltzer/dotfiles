@@ -16,6 +16,7 @@ fi
 brew update
 
 PACKAGES=(
+  coreutils
   yarn
   zsh-syntax-highlighting
 )
