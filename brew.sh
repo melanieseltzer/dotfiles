@@ -16,7 +16,6 @@ fi
 brew update
 
 PACKAGES=(
-  git
   yarn
   zsh-syntax-highlighting
 )
@@ -26,9 +25,6 @@ brew install ${PACKAGES[@]}
 
 echo "Cleaning up..."
 brew cleanup
-
-echo "Installing cask..."
-brew tap caskroom/cask
 
 CASKS=(
   firefox
@@ -40,9 +36,9 @@ CASKS=(
   karabiner-elements
   plex-media-server
   postman
+  rectangle
   rocket
   slack
-  spectacle
   spotify
   visual-studio-code
   vlc
