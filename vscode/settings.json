@@ -1,33 +1,25 @@
 {
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": false,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "editor.fontSize": 16,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.matchBrackets": "never",
-  "editor.minimap.enabled": false,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": false
-  },
-  "[typescript]": {
-    "editor.formatOnSave": false
-  },
-  "[typescriptreact]": {
-    "editor.formatOnSave": false
-  },
   "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+  },
   "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "markdown",
+    "mdx"
+  ],
   "explorer.autoReveal": false,
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "onFocusChange",
@@ -56,9 +48,6 @@
   "gitlens.views.lineHistory.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
-  "prettier.requireConfig": true,
-  "prettier.singleQuote": true,
-  "sync.askGistName": false,
   "sync.autoDownload": true,
   "sync.autoUpload": true,
   "sync.forceDownload": false,
@@ -68,6 +57,7 @@
   "sync.removeExtensions": true,
   "sync.syncExtensions": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Dracula",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
