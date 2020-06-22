@@ -1,5 +1,9 @@
 # Melanie Seltzer's dotfiles
 
+In roughly this order:
+
+Install Xcode from the app store.
+
 Install [nvm](https://github.com/nvm-sh/nvm):
 
 ```bash
@@ -18,6 +22,8 @@ Install [Pure prompt](https://github.com/sindresorhus/pure):
 $ npm install --global pure-prompt
 ```
 
+Verify git is installed (should come pre-installed) with `git --version`.
+
 Clone this repo and navigate to the dotfiles folder:
 
 ```bash
@@ -26,7 +32,7 @@ $ git clone git@github.com:melanieseltzer/dotfiles.git && cd dotfiles
 
 Make the following changes:
 
-- rename `.example.env` to `.env` and add any env vars
+- duplicate `.example.env` as `.env` and add any env vars
 - configure email in `.gitconfig`
 - pick and choose what to install in `brew.sh`
 
