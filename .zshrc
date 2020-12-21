@@ -38,3 +38,10 @@ prompt pure
 
 # Brew
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias gcm='git checkout master'
+alias gcnb='git checkout -b'
+alias gp='git pull'
+alias gpo='git pull origin'
+alias gbd='git branch -D'
+alias gpu='git push'
+alias gpuo='git push origin'
