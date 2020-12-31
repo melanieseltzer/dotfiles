@@ -33,7 +33,7 @@ $ git clone git@github.com:melanieseltzer/dotfiles.git && cd dotfiles
 Make the following changes:
 
 - duplicate `.example.env` as `.env` and add any env vars
-- configure email in `.gitconfig`
+- configure anything in `.gitconfig`
 - pick and choose what to install in `brew.sh`
 
 Once done, run to symlink:

@@ -32,7 +32,6 @@ CASKS=(
   folx
   google-chrome
   hyper
-  ivpn
   kap
   karabiner-elements
   plex-media-server
