@@ -17,7 +17,6 @@ brew update
 
 PACKAGES=(
   coreutils
-  yarn
   zsh-syntax-highlighting
 )
 
@@ -29,7 +28,6 @@ brew cleanup
 
 CASKS=(
   firefox
-  folx
   google-chrome
   hyper
   kap
