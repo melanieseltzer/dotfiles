@@ -4,26 +4,33 @@ Set up a new Mac fast, in roughly this order:
 
 ## Prerequisites
 
-[Generate a new SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and add it to GitHub.
+- [Generate a new SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and add it to GitHub.
 
-Verify git is installed (should come pre-installed) with `git --version`.
+- Verify git is installed (should come pre-installed) with `git --version`.
 
-Install Xcode from the app store.
+- Install Xcode from the app store.
 
-Install [nvm](https://github.com/nvm-sh/nvm) and then Node:
+- Install [nvm](https://github.com/nvm-sh/nvm) and then Node:
 
 ```bash
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+$ nvm ls-remote
 $ nvm install xx.xx.xx
 ```
 
-Install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh):
+- Install Yarn:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+$ npm install --global yarn
 ```
 
-Install [Pure prompt](https://github.com/sindresorhus/pure):
+- Install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh):
+
+```bash
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+- Install [Pure prompt](https://github.com/sindresorhus/pure):
 
 ```bash
 $ npm install --global pure-prompt
