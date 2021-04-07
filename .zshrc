@@ -28,6 +28,9 @@ plugins=( git git-auto-status last-working-dir lol npm osx web-search wd zsh-syn
 # Source
 source $ZSH/oh-my-zsh.sh
 
+# Add path to cloned pure prompt repo
+fpath+=$HOME/.zsh/pure
+
 # Use the Pure prompt https://github.com/sindresorhus/pure
 autoload -U promptinit; promptinit
 prompt pure

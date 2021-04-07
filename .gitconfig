@@ -23,17 +23,3 @@
 
 [core]
 	excludesfile = ~/.gitignore_global
-
-[alias]
-	a = add .
-	ca = commit -a
-	cam = commit -am
-	cm = commit -m
-	s = status
-	gst = status
-	f = fetch
-	fom = fetch origin master
-	pom = push origin master
-	puom = pull origin master
-	cob = checkout -b
-	co = checkout

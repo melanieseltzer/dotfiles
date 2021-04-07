@@ -33,7 +33,8 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 - Install [Pure prompt](https://github.com/sindresorhus/pure):
 
 ```bash
-$ npm install --global pure-prompt
+$ mkdir -p "$HOME/.zsh"
+$ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ```
 
 ## Dotfiles
