@@ -38,6 +38,7 @@ CASKS=(
   rocket
   slack
   spotify
+  switchhosts
   visual-studio-code
   vlc
 )
