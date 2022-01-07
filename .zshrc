@@ -23,7 +23,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="yyyy-mm-dd"
 
 # Oh-my-zsh plugins
-plugins=( git git-auto-status last-working-dir lol npm osx web-search wd zsh-syntax-highlighting)
+plugins=( git git-auto-status last-working-dir lol npm macos web-search wd zsh-syntax-highlighting)
 
 # Source
 source $ZSH/oh-my-zsh.sh
