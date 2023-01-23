@@ -1,5 +1,8 @@
-# Setting $PATH and $ZSH and $ZSH_CUSTOM
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+path+=$HOME/bin
+path+=$HOME/Library/pnpm
+path+=/Applications/Postgres.app/Contents/Versions/latest/bin # expose Postgres.app CLI tools
+
+export PATH
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_CUSTOM=$HOME/dotfiles/oh-my-zsh/custom
 
