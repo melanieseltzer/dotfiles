@@ -5,26 +5,8 @@
 [github]
   user = melanieseltzer
 
-[color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
-
-[color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
-
-[color "status"]
-	added = yellow
-	changed = green
-	untracked = red
-
 [core]
 	excludesfile = ~/.gitignore_global
 
 [pull]
-	ff = true
-[init]
-	defaultBranch = main
+	ff = only
